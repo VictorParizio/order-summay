@@ -1,0 +1,118 @@
+*{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--padrao);
+}
+
+a{
+    color: var(--normal);
+    transition: 0.3s ease-in-out;
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--ativo);
+}
+
+.order-summary{
+    background: url(../images/pattern-background-desktop.gif) no-repeat center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-summary .card-states{
+    background-color: var(--bg-card);
+    height: 590px;
+    max-width: 380px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.order-summary .card-states .illustration{
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.order-summary .card-states .order{
+    color: var(--destaque);
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.order-summary .card-states .descritivo{
+    text-align: center;
+    line-height: 22px;
+    max-width: 300px;
+}
+
+.order-summary .card-states .plan{
+    background-color: var(--contraste);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height:80px;
+    border-radius: 10px;
+}
+
+.order-summary .card-states .plan .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.order-summary .card-states .plan .container .ico-music{
+    max-width: 40px;
+}
+
+.order-summary .card-states .plan .container .annual{
+    color: var(--destaque);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.order-summary .card-states .plan .container .change{
+    font-weight: 700;
+}
+
+.order-summary .card-states .payment{
+    background-color: var(--normal);
+    color: var(--contraste);
+    font-weight: 700;
+    border: none;
+    width: 300px;
+    height:40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(6, 28, 221, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+.order-summary .card-states .payment:hover{
+    background-color: var(--ativo);
+}
+
+.order-summary .card-states .cancel{
+    font-weight: 700;
+    color: var(--padrao);
+    margin-bottom: 40px;
+}
+
+.order-summary .card-states .cancel:hover{
+    color: var(--destaque);
+}
+
+.attribution, 
+.attribution a{
+    padding-top: 10px;
+    font-size: 12px;
+}

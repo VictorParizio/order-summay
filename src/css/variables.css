@@ -1,0 +1,9 @@
+:root{
+--ativo: hsl(250, 100%, 74%);
+--normal: hsl(245, 75%, 52%);
+
+--bg-card: hsl(0, 0%, 100%);
+--contraste: hsl(225, 100%, 98%);
+--padrao: hsl(224, 23%, 55%);
+--destaque: hsl(223, 47%, 23%);
+}
